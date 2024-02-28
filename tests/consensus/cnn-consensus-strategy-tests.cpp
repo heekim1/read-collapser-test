@@ -23,7 +23,7 @@ struct CnnConsensusStrategyTestFixture {
     strands = {{0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}, {1, 1, 1, 1, 1, 1}};
 
     expected_features = {
-    #      -DEL      +A        +C         +G      +T      -DEL     -A       -C         -G        -T      TOT 
+    #      +DEL      +A        +C         +G      +T      -DEL     -A       -C         -G        -T      TOT 
         {1.0f / 3, 1.0f / 3,        0,        0,        0,    0, 1.0f / 3,        0,        0,        0,   3}, 
         {       0,        0, 2.0f / 3,        0,        0,    0,        0, 1.0f / 3,        0,        0,   3},
         {1.0f / 3,        0,        0,        0, 1.0f / 3,    0,        0,        0,        0, 1.0f / 3,   3}, 
